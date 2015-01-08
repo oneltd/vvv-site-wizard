@@ -365,7 +365,6 @@ if [[ $action = 'new' || $action = 'make' || $action = 'create' ]]; then
 "\t$create_theme\n"\
 "\tgit clone git@git.oneltd.co.uk:one/oneltd-base.git\n"\
 "\tcd $theme_dirname\n"\
-"\tnpm install\n"\
 "\tcd ..\n"\
 "else\n"\
 "\techo 'Updating WordPress in $site/htdocs...'\n"\
